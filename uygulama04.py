@@ -21,7 +21,7 @@ for s in ["Açık Bilim", "Açık Erişim", "Açık Lisans", "Açık Eğitim", "
 #Soru3
 kelime=input("Bir kelime girin :")
 sozluk ={"Elma" :"Ağaçta yetişen bir tür meyve",
-        " Salatalık" : "Fidan üzerinde büyüyen bir tür sebze"}
+        "Salatalık" : "Fidan üzerinde büyüyen bir tür sebze"}
 
 if kelime  in sozluk:
     print(sozluk[kelime])
